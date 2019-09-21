@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void handleBundle(View view) {
+        Intent intent = new Intent(this, BundleActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }
